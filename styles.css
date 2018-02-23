@@ -46,9 +46,34 @@ h1, h2, h3, h4 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
 }
-p {
+p, a {
 	font-family: 'Josefin Sans', sans-serif;
 }
+
+a:link {
+    color: #efd2d2;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #ff4c4c;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
 body {
 	color: #262626;
 }
