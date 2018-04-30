@@ -4,7 +4,7 @@
 	padding-bottom: 50px;
 }
 .parallax {
-    background-image: url("bakgrund_tg.jpg");
+    background-image: url("bakgrund_tg2.jpg");
     height: 100%;
 		width: 100%;
     background-attachment: fixed;
@@ -19,7 +19,7 @@
 }
 
 .upper {
-		text-shadow: 0 0 4px #e6e6e6;
+		text-shadow: 0 0 4px #262626;
 }
 
 .sektion {
@@ -89,7 +89,7 @@ a:active {
 }
 
 body {
-	color: #262626;
+	color: #e6e6e6;
 }
 .footer {
 	background: #262626;
