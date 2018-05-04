@@ -101,6 +101,12 @@ body {
 	padding-left: 10px;
 	padding-right: 10px;
 }
+
+.karta {
+	height: 400px;
+	width: 100%;
+}
+	
 @media only screen and (min-width: 500px) {
 	.portrait {
 		width: 250px;

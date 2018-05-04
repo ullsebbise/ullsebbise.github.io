@@ -63,6 +63,25 @@
 			</br>
 				<p class="italic">Lokalen ligger cirka 1 minut från vårt hem, där det finns skötbord och vilorum för små barn</p>
 			</div>
+			<div class="container text-center sektion">
+				<div class="karta" id="map"></div>
+				<script>
+      		function initMap() {
+        		var uluru = {lat: -25.363, lng: 131.044};
+        		var map = new google.maps.Map(document.getElementById('map'), {
+          		zoom: 4,
+          		center: uluru
+        		});
+        		var marker = new google.maps.Marker({
+          		position: uluru,
+          		map: map
+        		});
+      		}
+    	</script>
+			<script async defer
+	    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdtzfJXy3COFjG1hkp0_FXgAL9t1VTMxY&callback=initMap">
+	    </script>
+			</div>
 			<div class="container"></div>
 			<div class="container text-center sektion" id="onskemal">
 				<div class="row text-center">
@@ -95,7 +114,7 @@
 		</div>
 		<footer class="footer text-center contact">
 		</footer>
-		<script type="text/javascript" src="./script.js"></script>
+		<!--<script type="text/javascript" src="./script.js"></script>-->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</body>
