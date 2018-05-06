@@ -6,6 +6,7 @@ function initMap() {
   });
   var marker = new google.maps.Marker({
     position: lokal,
-    map: map
+    map: map,
+    title: 'Torstens namngivningsceremoni'
   });
 }
